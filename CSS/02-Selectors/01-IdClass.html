@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, h2, h3, h4 {
+            color: red;
+        }
+        #section-1 h2 {
+            color: red;
+        }
+        #section-2 h2 {
+            color: blue;
+        }
+        .child {
+            border: 2px solid red;
+        }
+        .wrapper {
+            background-color: lightgoldenrodyellow;
+        }
+        #section-1 .child {
+        border-color: blue;
+        }
+        #section-2 .child h3 {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Id & Class</h1>
+
+    <!-- id - identity
+    - always unique
+    - represented by #
+    - an id can be used only once a page
+    - one tag can have only 1 id at a time -->
+
+    <!-- class - grouping
+    - it's reusable
+    - represented by dot
+    - class can be used any number of time
+    - one tag can have multiple classes -->
+
+    <div id="section-1">
+        <h2>This is section-1</h2>
+        <div class="child wrapper">
+            <h3>This is a child heading</h3>
+        </div>
+    </div>
+
+    <div id="section-2">
+        <h2>This is section-2</h2>
+        <div class="child">
+            <h3>This is a child heading</h3>
+        </div>
+    </div>
+
+    <div id="section-3" class="wrapper">
+        <h2>This is section-3</h2>
+    </div>
+    
+</body>
+</html>
