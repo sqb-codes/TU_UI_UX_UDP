@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Welcome User</h1>
+
+    <input type="text" placeholder="Enter Name" id="box">
+    <button onclick="welcome()">Click Here</button>
+    <hr>
+    <h2>Welcome : <span id="output"></span></h2>
+    
+    <script>
+        function welcome() {
+            // console.log("Button Clicked...");
+            var username = document.getElementById("box").value;
+            console.log(username);
+            document.getElementById("output").innerText = username;
+        }
+    </script>
+</body>
+</html>

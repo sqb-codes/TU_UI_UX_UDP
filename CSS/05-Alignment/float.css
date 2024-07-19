@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+/* ::after - Pseudo Element */
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.col {
+    width: 46%;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.col-1 {
+    float: left;
+    margin-left: 20px;
+}
+.col-2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.parent {
+    background-color: lightcoral;
+}

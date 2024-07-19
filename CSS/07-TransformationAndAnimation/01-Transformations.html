@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid red;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        img {
+            width: 40%;
+            transition-duration: 2s;
+        }
+        div .img-1{
+            /* margin-left: 100px; */
+            /* transform: translateX(100px); */
+            /* transition-duration: 2s; */
+        }
+        div:hover .img-1{
+            /* transform: translateX(-150%); */
+            /* transform: translateY(-100%); */
+            /* transform: rotateX(180deg); */
+            /* transform: rotateY(180deg); */
+            /* transform: rotateZ(180deg); */
+            /* transform: scale(1.5,1.5); */
+            /* transform: translateX(-150%) rotate(360deg); */
+            /* transform: skewX(45deg); */
+            transform: skewY(180deg);
+        }
+        div:hover .img-2{
+            /* transform: translateX(150%); */
+            /* transform: translateY(100%); */
+            /* transform: rotateX(-180deg); */
+            /* transform: rotateY(-180deg); */
+            /* transform: rotateZ(-180deg); */
+            /* transform: scale(0.5,0.5); */
+            /* transform: translateX(150%) rotate(-360deg); */
+            /* transform: skewX(45deg); */
+            transform: skewY(180deg);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Transformation
+    - translate
+    - rotate
+    - scale
+    - skew -->
+
+    <h1>Transformation</h1>
+
+    <div>
+        <img class="img-1" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202405/virat-kohli-150430606-16x9_3.jpg?VersionId=zmGKFaT.4kNmnFB0.ZsAhKwymIo17tzP&size=690:388" alt="">
+
+        <img class="img-2" src="https://images.indianexpress.com/2024/05/VIRAT-KOHLI-ORANGE-CAP-PTI-CROP-1.jpg" alt="">
+    </div>
+    
+</body>
+</html>
