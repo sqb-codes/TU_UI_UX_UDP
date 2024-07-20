@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="validations.js"></script>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="#" id="reg-form">
+        <table>
+            <tr>
+                <td>Enter your username</td>
+                <td>
+                    <input type="text" id="username" placeholder="Enter your username">
+                </td>
+                <td>
+                    <span class="error" id="userErr"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your email</td>
+                <td>
+                    <input type="text" id="usermail" placeholder="Enter your email Id">
+                </td>
+                <td>
+                    <span class="error" id="mailErr"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your password</td>
+                <td>
+                    <input type="password" id="userpwd" placeholder="Enter your password">
+                </td>
+                <td>
+                    <span class="error" id="pwdErr"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td>
+                    <input type="password" id="confpwd" placeholder="Confirm Password">
+                </td>
+                <td>
+                    <span class="error" id="confErr"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your DOB</td>
+                <td>
+                    <input type="date" id="userdob" placeholder="Enter your DOB">
+                </td>
+                <td>
+                    <span class="error" id="dobErr"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset">
+                </td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
