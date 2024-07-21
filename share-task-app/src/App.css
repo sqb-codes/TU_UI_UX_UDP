@@ -1,0 +1,10 @@
+.task-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.task-wrapper h2 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+  padding-bottom: 20px;
+}

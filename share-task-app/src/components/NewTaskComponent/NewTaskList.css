@@ -1,0 +1,25 @@
+.taskForm {
+    margin: 20px 0px;
+}
+
+.taskForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.taskForm input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0px 10px;
+}
+
+.btn {
+    display: block;
+    margin: 10px 0px;
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 0px;
+}

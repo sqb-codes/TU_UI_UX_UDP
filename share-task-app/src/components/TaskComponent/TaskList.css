@@ -1,0 +1,13 @@
+.task-group {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.task-group li {
+    border: 1px solid red;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
